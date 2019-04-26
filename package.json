@@ -1,6 +1,7 @@
 {
   "name": "quiz-app",
   "version": "0.1.0",
+  "description": "Quiz application built with React",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",

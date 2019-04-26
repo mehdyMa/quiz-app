@@ -1,5 +1,6 @@
 import React from 'react';
-
+import '../styles/app.css';
+import Footer from './Footer.js';
 
 class Main extends React.Component {
   constructor(props) {
@@ -12,9 +13,9 @@ class Main extends React.Component {
   render() {
 
     return(
-      <div>
+      <div className='container'>
       <h1>Question</h1>
-
+      <Footer />
       </div>
     )
   }
